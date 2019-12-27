@@ -1,0 +1,5 @@
+console.log('%s','haha','你妹')
+console.log('%s','haha',{name:'你妹'})
+console.log('%d',10,10.50)
+console.log('%d','你妹')
+console.log('%%','你妹')
