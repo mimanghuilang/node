@@ -1,0 +1,7 @@
+子进程当前的目录为D:\work\node\进程\more\test
+0:C:\Program Files\nodejs\node.exe
+1:D:\work\node\进程\more\test\test1.js
+2:one
+3:two
+4:three
+5:four
