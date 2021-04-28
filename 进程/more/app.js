@@ -16,10 +16,25 @@ console.log(sp1);
 sp1.stdout.on('data',function (data) {
     console.log(`子进程标准输出${data}`)
     sp2.stdin.write(data)
+    sp1.kill()
 })
+// sp1.kill()
 sp1.on('exit', function (code, signal) {
+    if(!code){
+        console.log('子进程退出'+signal)
+    }else{
+        console.log('子进程退出code'+code)
+    }
     console.log(`子进程退出${code},${signal}`)
     process.exit()
+})
+sp1.on('error',function (err) {
+    console.log('sp1子进程开启失败'+err);
+    process.exit();
+})
+sp2.on('error',function (err) {
+  console.log('sp2子进程开启失败'+err);
+  process.exit();
 })
 process.on('exit',function (code,signal) {
     console.log(`父进程退出${code},${signal}`)
