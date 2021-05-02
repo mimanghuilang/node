@@ -17,6 +17,9 @@ r1.on('line',function (line) {
   out.write('line'+index.toString()+':\n');
   index+=1;
 })
+
+console.log('嘻嘻嘻哈哈哈哈')
+
 file.on('end',function () {
   console.log('end')
 })
