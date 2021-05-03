@@ -24,3 +24,4 @@ r1.on('close',function () {
   console.log('结束了')
 })
 console.log('test1 8281')
+console.log('test1 8282')
