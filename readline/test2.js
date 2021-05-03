@@ -15,3 +15,4 @@ var r1 = readline.createInterface({
 r1.question('您好么',function (answer) {
   console.log(answer);
 })
+console.log('修改test2.js')
