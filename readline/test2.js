@@ -15,4 +15,4 @@ var r1 = readline.createInterface({
 r1.question('您好么',function (answer) {
   console.log(answer);
 })
-console.log('xixi 0842 t2')
+console.log('重来  t2')
