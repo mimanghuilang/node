@@ -23,4 +23,6 @@ file.on('end',function () {
 r1.on('close',function () {
   console.log('结束了')
 })
-console.log('modify 819 t1')
+console.log('test1 8281')
+console.log('test1 8282')
+console.log('test1 8283')
