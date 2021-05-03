@@ -23,3 +23,4 @@ file.on('end',function () {
 r1.on('close',function () {
   console.log('结束了')
 })
+console.log('test1 提交test1')
