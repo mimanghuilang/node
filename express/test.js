@@ -6,6 +6,7 @@ app.get('/i*.html',(req,res) => {
     res.write('<html><head><meta charset="utf-8"/></head>')
     res.end('您好</html>')
 })
+
 // var http = require('http');
 // http.createServer(function(req, res){
 //     res.writeHead(200, {'Content-type' : 'text/html'});
