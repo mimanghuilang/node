@@ -37,31 +37,37 @@ var spawn = require('child_process').spawn;
 // -- end
 
 // 创建ipc通道 start
-var sp1 = spawn('node',['test1.js','one','two','three','four','five'],{cwd:'./test',stdio:['ipc','pipe','ignore']})
-var sp2 = spawn('node',['test2.js','one','two','three','four','five'],{cwd:'./test',stdio:'pipe',detached:true})
-sp1.stdout.on('data',function (data) {
-    console.log(data.toString());
-    sp2.stdin.write(data)
-})
-sp1.on('exit',function (code,signal) {
-    console.log('子进程exit sp1，退出代码为'+code);
-    // process.exit();
-})
-sp1.on('close',function (code,signal) {
-  console.log('子进程退出close sp1，退出代码为'+code);
-  process.exit();
-})
-sp1.on('error',function (err) {
-    console.log("子进程开启失败",err)
-})
-sp1.on('disconnect',function () {
-  console.log('IPC通道被关闭')
-  })
-
-sp2.on('close',function (code,signal) {
-  console.log('子进程close sp2，退出代码为'+code);
-})
-sp2.on('exit',function (code,signal) {
-  console.log('子进程exit sp2，退出代码为'+code);
-})
+// var sp1 = spawn('node',['test1.js','one','two','three','four','five'],{cwd:'./test',stdio:['ipc','pipe','ignore']})
+// var sp2 = spawn('node',['test2.js','one','two','three','four','five'],{cwd:'./test',stdio:'pipe',detached:true})
+// sp1.stdout.on('data',function (data) {
+//     console.log(data.toString());
+//     sp2.stdin.write(data)
+// })
+// sp1.on('exit',function (code,signal) {
+//     console.log('子进程exit sp1，退出代码为'+code);
+//     // process.exit();
+// })
+// sp1.on('close',function (code,signal) {
+//   console.log('子进程退出close sp1，退出代码为'+code);
+//   process.exit();
+// })
+// sp1.on('error',function (err) {
+//     console.log("子进程开启失败",err)
+// })
+// sp1.on('disconnect',function () {
+//   console.log('IPC通道被关闭')
+//   })
+//
+// sp2.on('close',function (code,signal) {
+//   console.log('子进程close sp2，退出代码为'+code);
+// })
+// sp2.on('exit',function (code,signal) {
+//   console.log('子进程exit sp2，退出代码为'+code);
+// })
 // 创建通道 end
+
+// 允许父进程首先退出
+var fs = require('fs');
+var out = fs.openSync('./test/message.txt','w');
+var sp1 = spawn('node',['write.js','one','two','three','four','five'],{cwd:'./test',detached:true,stdio:['ignore',out,'ignore']})
+sp1.unref();
