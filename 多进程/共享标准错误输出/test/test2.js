@@ -4,5 +4,6 @@ process.stdin.on('data',function (data) {
   out.write(data)
 })
 process.stdin.on('end',function (data) {
+  out.write('\r\n sp2 end')
   process.exit()
 })

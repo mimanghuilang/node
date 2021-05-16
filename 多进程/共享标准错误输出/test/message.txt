@@ -1,0 +1,9 @@
+子进程当前工作的目录为：C:\work\node\多进程\共享标准错误输出\test
+0:C:\Program Files\nodejs\node.exe
+1:C:\work\node\多进程\共享标准错误输出\test\test1.js
+2:one
+3:two
+4:three
+5:four
+6:five
+ sp2 end
