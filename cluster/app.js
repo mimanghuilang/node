@@ -10,7 +10,10 @@ if(cluster.isMaster){
     cluster.on('listening',function (worker,address) {
         console.log(worker.id,address)
     })
-    cluster.fork();
+    const worker = cluster.fork();
+    worker.on('online',function () {
+        console.log('已经接收到子进程'+worker.id+'的反馈信息')
+    })
 }else{
     http.createServer(function (req,res) {
         if(req.url!=='favicon.ico'){

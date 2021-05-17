@@ -23,6 +23,15 @@ cluster.on("fork",function(worker){})    // 开启子进程后
 cluster.on('online',function(worker){})  // 尝试运行Node.js应用程序时
 cluster.on('listening',function(worker,address){}) // 子进程调用服务气的listen方法后
 
+### worker对象的方法与事件
+worker.on('online',function(){})
+worker.on('listening',function(address){})
+worker.send(message,[sendHandle])
+process.send(message,[sendHandle])
+worker.on('exit',function(code,signal))
+worker.kill([signal])
+worker.disconnect() 使子进程不再接收外部连接
+
 ## 对所有子进程进行遍历
 for(var index in cluster.workers){
     console.log(cluster.workers[index])
