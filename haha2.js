@@ -1,5 +1,2 @@
-a = [1,2,3,4,5,6,7,8]
-a.forEach(function(item){
-console.log(item)
-})
-
+const haha = 123
+console.log(haha)
