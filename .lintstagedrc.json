@@ -1,0 +1,4 @@
+{
+  "*.js":[ "eslint --fix"],
+  "*.{css,scss,styl}": "stylelint --fix"
+}
