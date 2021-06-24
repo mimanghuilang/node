@@ -1,0 +1,1 @@
+{"*.{js,html}":"eslint --config upRelease/.eslintrc.json --fix"}
