@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "commonjs": true,
+    "node": true,
+    "jquery": true
+  },
+  "extends": [
+    "standard"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "plugins": [
+    "html",
+    "@typescript-eslint"
+  ],
+  "settings": {
+    "html/xml-extensions": [
+      ".html"
+    ],
+    "html/javascript-mime-types": [
+      "text/javascript",
+      "text/jsx"
+    ]
+  },
+  "rules": {},
+  "parser": "@typescript-eslint/parser"
+}
