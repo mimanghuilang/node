@@ -6,10 +6,29 @@
   "directories": {
     "test": "test"
   },
+  "dependencies": {
+    "typescript": "^4.3.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "12.1.4",
+    "commitizen": "4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "7.27.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-html": "6.1.2",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.1.0",
+    "husky": "^6.0.0",
+    "lint-staged": "10.5.4",
+    "standard-version": "9.3.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release-lintjs": "eslint --config upRelease/.eslintrc.json src/**/*.{js,html,ts}   --fix",
-    "prepare": "husky install upRelease/.husky"
+    "up366spec-lintjs": "eslint --config .up366/.eslintrc.json src/**/*.{js,html}  --fix",
+    "up366spec-release": "standard-version",
+    "prepare": "husky install .up366/.husky"
   },
   "repository": {
     "type": "git",
@@ -22,20 +41,10 @@
     "url": "https://github.com/mimanghuilang/node/issues"
   },
   "homepage": "https://github.com/mimanghuilang/node#readme",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "4.26.1",
-    "@typescript-eslint/parser": "4.26.1",
-    "eslint": "7.27.0",
-    "eslint-config-standard": "16.0.3",
-    "eslint-plugin-html": "6.1.2",
-    "eslint-plugin-import": "2.23.4",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "5.1.0",
-    "husky": "^6.0.0",
-    "lint-staged": "10.5.4"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
-  "initRelease": true,
-  "dependencies": {
-    "typescript": "^4.3.4"
-  }
+  "initRelease": true
 }

@@ -14,8 +14,7 @@
     "ecmaVersion": 12
   },
   "plugins": [
-    "html",
-    "@typescript-eslint"
+    "html"
   ],
   "settings": {
     "html/xml-extensions": [
@@ -26,6 +25,7 @@
       "text/jsx"
     ]
   },
-  "rules": {},
-  "parser": "@typescript-eslint/parser"
+  "rules": {
+    "no-var": 0
+  }
 }
