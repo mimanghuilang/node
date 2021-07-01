@@ -1,9 +1,10 @@
 # ChangeLog
-## [test100012](https://github.com/mimanghuilang/node/compare/v18.0.0...vtest100012) (2021-07-01)
+## [test01](https://github.com/mimanghuilang/node/compare/v18.0.0...vtest01) (2021-07-01)
 
 
 ### 其他修改
 
+* **release:** 版本发布 test100012 ([9defe2b](https://github.com/mimanghuilang/node/commit/9defe2becd583cee4c75e6855fb1e144ce7cf73a))
 * **release:** 版本发布 test9999 ([9676cf9](https://github.com/mimanghuilang/node/commit/9676cf9ee9ae3c5c2b8d66783028493790edd250))
 
 ## [18.0.0](https://github.com/mimanghuilang/node/compare/v16.0.0...v18.0.0) (2021-07-01)
