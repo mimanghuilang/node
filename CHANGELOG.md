@@ -1,4 +1,13 @@
 # ChangeLog
+## [13.0.0](https://github.com/mimanghuilang/node/compare/12.0.0...13.0.0) (2021-07-01)
+
+### [12.0.1](https://github.com/mimanghuilang/node/compare/v11.0.0...v12.0.1) (2021-07-01)
+
+
+### 其他修改
+
+* **release:** 版本发布 v12.0.0 ([9dee22d](https://github.com/mimanghuilang/node/commit/9dee22da9bc1053523eaa12ed28a3acc0984c7bc))
+
 ## [12.0.0](https://github.com/mimanghuilang/node/compare/v11.0.0...v12.0.0) (2021-07-01)
 
 ## [11.0.0](https://github.com/mimanghuilang/node/compare/v10.0.0...v11.0.0) (2021-07-01)
