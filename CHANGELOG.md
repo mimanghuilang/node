@@ -1,4 +1,6 @@
 # ChangeLog
+## [12.0.0](https://github.com/mimanghuilang/node/compare/v11.0.0...v12.0.0) (2021-07-01)
+
 ## [11.0.0](https://github.com/mimanghuilang/node/compare/v10.0.0...v11.0.0) (2021-07-01)
 
 ## [10.0.0](https://github.com/mimanghuilang/node/compare/v1.0.1...v10.0.0) (2021-06-30)
