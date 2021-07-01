@@ -5,3 +5,6 @@ a.forEach(function (item) {
 a.forEach(function (item) {
   console.log(item + 1)
 })
+a.forEach(function (item) {
+  console.log(item + 2)
+})
