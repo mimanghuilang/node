@@ -1,5 +1,12 @@
 # ChangeLog
-## [test10001](https://github.com/mimanghuilang/node/compare/v15.0.0...vtest10001) (2021-07-01)
+## [16.0.0](https://github.com/mimanghuilang/node/compare/v15.0.0...v16.0.0) (2021-07-01)
+
+
+### 其他修改
+
+* **release:** 版本发布 test10000 ([a0bafdc](https://github.com/mimanghuilang/node/commit/a0bafdca603417ac8275195857abec36512a4429))
+* **release:** 版本发布 test10001 ([094b03f](https://github.com/mimanghuilang/node/commit/094b03fc1a31d2a2ba6c4222dd2517bb73b9cf78))
+* **release:** 版本发布 test999 ([93a6574](https://github.com/mimanghuilang/node/commit/93a6574c961ce1eb1d0cebbcd6c52158255b7a31))
 
 
 ### 问题修复
@@ -7,12 +14,6 @@
 * 修改版本号 ([d88b402](https://github.com/mimanghuilang/node/commit/d88b402f4a5a5bfe91abda1ba09ffbd71a110e99))
 * 测试修改10000 ([1c1b02c](https://github.com/mimanghuilang/node/commit/1c1b02cb0a130f0ea13a8662accff23df9b536a7))
 * 测试修改10001 ([31446fe](https://github.com/mimanghuilang/node/commit/31446fe06b1fdf6ec5a846bf77910eb861ecda50))
-
-
-### 其他修改
-
-* **release:** 版本发布 test10000 ([a0bafdc](https://github.com/mimanghuilang/node/commit/a0bafdca603417ac8275195857abec36512a4429))
-* **release:** 版本发布 test999 ([93a6574](https://github.com/mimanghuilang/node/commit/93a6574c961ce1eb1d0cebbcd6c52158255b7a31))
 
 ### [15.0.1](https://github.com/mimanghuilang/node/compare/v15.0.0...v15.0.1) (2021-07-01)
 
