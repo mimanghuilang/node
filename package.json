@@ -1,6 +1,6 @@
 {
   "name": "node",
-  "version": "18.0.0",
+  "version": "test9999",
   "description": "just for node practices",
   "main": "app.js",
   "directories": {
