@@ -1,6 +1,6 @@
 {
   "name": "node",
-  "version": "10.0.1",
+  "version": "10.0.2",
   "description": "just for node practices",
   "main": "app.js",
   "directories": {
@@ -26,9 +26,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "up366spec-lintjs": "eslint --config .up366/.eslintrc.json src/**/*.{js,html}  --fix",
-    "up366spec-release": "standard-version",
-    "prepare": "husky install .up366/.husky"
+    "up366spec-release": "Standard-version",
+    "prepare": "up366spec-release .eslintignore"
   },
   "repository": {
     "type": "git",
