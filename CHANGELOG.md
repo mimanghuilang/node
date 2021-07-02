@@ -1,4 +1,12 @@
 # ChangeLog
+### [10.0.9](https://github.com/mimanghuilang/node/compare/v19.0.1...v10.0.9) (2021-07-02)
+
+
+### 问题修复
+
+* 修改本地文件 ([45e67da](https://github.com/mimanghuilang/node/commit/45e67da02481aaf6b0c8bc06a3926c95e34490fd))
+* 修改配置参数 ([0dbdd3f](https://github.com/mimanghuilang/node/commit/0dbdd3f231f8030dad5256bdc50552f65c29eb19))
+
 ### [19.0.1](https://github.com/mimanghuilang/node/compare/v19.0.0...v19.0.1) (2021-07-02)
 
 ## [19.0.0](https://github.com/mimanghuilang/node/compare/v1.0.0...v19.0.0) (2021-07-02)
