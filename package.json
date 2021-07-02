@@ -43,6 +43,6 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "isStandardAllConfig": true
+  "isStandardAllConfig": true,
   "init-366spec": true
 }
