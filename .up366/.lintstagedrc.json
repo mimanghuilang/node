@@ -1,3 +1,0 @@
-{
-  "*.{css,html}": "stylelint  --config .up366/.stylelintrc.json --fix"
-}

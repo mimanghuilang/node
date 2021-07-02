@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "up366spec": "up366spec",
-    "prepare": "husky install .up366/.husky"
+    "prepare": "up366spec prepare"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
     "cz-conventional-changelog": "3.3.0",
     "husky": "^6.0.0",
     "lint-staged": "10.5.4",
-    "stylelint": "13.13.1",
+    "stylelint": "^13.13.1",
     "stylelint-config-standard": "22.0.0"
   },
   "config": {
