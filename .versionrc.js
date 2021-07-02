@@ -17,5 +17,5 @@ module.exports = {
     { type: "build", section: "构建优化" },
     { type: "chore", section: "其他修改" }
   ],
-  releaseCommitMessageFormat: "chore(release): 版本发布 {{currentTag}}"
+  releaseCommitMessageFormat: "chore(release): 版本发布 v{{currentTag}}"
 };
