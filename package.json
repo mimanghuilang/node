@@ -1,6 +1,6 @@
 {
   "name": "node",
-  "version": "10.0.13",
+  "version": "10.0.14",
   "description": "just for node practices",
   "main": ".versionrc.js",
   "directories": {
