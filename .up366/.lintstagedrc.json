@@ -1,3 +1,0 @@
-{
-  "*.{js,html}": "eslint --config .up366/.eslintrc.json --fix"
-}
