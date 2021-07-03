@@ -7,15 +7,18 @@
 module.exports = {
   header: "# ChangeLog",
   types: [
-    { type: "feat", section: "新功能" },
-    { type: "fix", section: "问题修复" },
-    { type: "docs", section: "文档更新" },
-    { type: "style", section: "样式修改" },
-    { type: "refactor", section: "重构" },
-    { type: "perf", section: "性能优化" },
-    { type: "test", section: "测试优化" },
-    { type: "build", section: "构建优化" },
-    { type: "chore", section: "其他修改" }
+    {type: "feat", section: "新功能"},
+    {type: "fix", section: "问题修复"},
+    {type: "docs", section: "文档更新"},
+    {type: "style", section: "样式修改"},
+    {type: "refactor", section: "重构"},
+    {type: "perf", section: "性能优化"},
+    {type: "test", section: "测试优化"},
+    {type: "build", section: "构建优化"},
+    {type: "chore", section: "其他修改"}
   ],
-  releaseCommitMessageFormat: "chore(release): 版本发布 v{{currentTag}}"
+  releaseCommitMessageFormat: "chore(release): 版本发布 v{{currentTag}}",
+  commitUrlFormat: "http://192.168.0.34/HtmlGroup/{{repository}}/commit/{{hash}}",
+  compareUrlFormat: "http://192.168.0.34/HtmlGroup/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
+  issueUrlFormat: "http://192.168.0.34/HtmlGroup/{{repository}}/issues/{{id}}",
 };
