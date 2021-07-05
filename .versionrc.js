@@ -17,5 +17,8 @@ module.exports = {
     {type: "build", section: "构建优化"},
     {type: "chore", section: "其他修改"}
   ],
-  releaseCommitMessageFormat: "chore(release): 版本发布 v{{currentTag}}"
+  releaseCommitMessageFormat: "chore(release): 版本发布 v{{currentTag}}",
+  commitUrlFormat: "http://192.168.0.34/HtmlGroup/{{repository}}/commit/{{hash}}",
+  compareUrlFormat: "http://192.168.0.34/HtmlGroup/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
+  issueUrlFormat: "http://192.168.0.34/HtmlGroup/{{repository}}/issues/{{id}}",
 };
